@@ -37,9 +37,6 @@ You can view information about deployed containers using the command:
 $ docker container ls
 ```
 
-For generate machine learning model using command:
-
-
 ## Functionality check
 
 API project:
