@@ -18,8 +18,8 @@ For generate machine learning model:
 ```
 jupyter notebook
 ```
-2.Open 'ml_service.ipynb'
-3.Execute all commands
+2. Open 'ml_service.ipynb'
+3. Execute all commands
 
 After execute all commands will be create file 'model.pkl' represents machine learning model.
 
