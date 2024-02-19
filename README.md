@@ -1,5 +1,6 @@
 # ABOUT PROJECT
 
+The project implements the creation of a machine learning model designed to identify anomalies in the operation of equipment.
 The project demonstrates the ability to automatically deploy web-service using Docker.
 
 # START
@@ -10,8 +11,19 @@ Clone the repository and go to it on the command line:
 ```
 git clone git@github.com:irinaexzellent/infra_sp2.git
 ```
+# Generate machine learning model
 
-# Description of commands for running an application in containers
+For generate machine learning model:
+1. Run
+```
+jupyter notebook
+```
+2.Open 'ml_service.ipynb'
+3.Execute all commands
+
+After execute all commands will be create file 'model.pkl' represents machine learning model.
+
+# Description of commands for running an application in container
 
 Dockerfile — this is a file with instructions for creating an image.
 'docker-compose.yaml' provides instructions for deploying a project to container.
@@ -24,6 +36,9 @@ You can view information about deployed containers using the command:
 ```
 $ docker container ls
 ```
+
+For generate machine learning model using command:
+
 
 ## Functionality check
 
