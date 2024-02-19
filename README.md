@@ -9,7 +9,7 @@ Install Docker on your computer (https://www.docker.com/).
 
 Clone the repository and go to it on the command line:
 ```
-git clone git@github.com:irinaexzellent/infra_sp2.git
+git clone git@github.com:irinaexzellent/ML_SERVICE.git
 ```
 # Generate machine learning model
 
@@ -50,6 +50,10 @@ After sending a POST request in string format, you will receive information abou
 Example string:
 ```
 "2020-03-09 14:09:56,0.0278083,0.0399288,1.21178,0.054711,68.7436,24.7123,235.085,27.977"
+```
+Value in string:
+```
+datetime,Accelerometer1RMS,Accelerometer2RMS,Current,Pressure,Temperature,Thermocouple,Voltage,Volume Flow RateRMS
 ```
 
 ## Author
